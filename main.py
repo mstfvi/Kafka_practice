@@ -41,7 +41,7 @@ def subscribe(consumer_instance):
     except Exception as ex:
         print('Exception in subscribing')
         print(str(ex))
-
+  
 if __name__ == '__main__':
     topic = input('enter topic: ')
     key = input('enter key: ')
